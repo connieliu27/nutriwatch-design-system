@@ -1,0 +1,51 @@
+{
+  "name": "nutriwatch-design-system",
+  "version": "0.1.0",
+  "description": "NutriWatch design tokens and React components.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    },
+    "./styles.css": "./styles.css",
+    "./tokens/*": "./tokens/*",
+    "./assets/*": "./assets/*",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "src",
+    "styles.css",
+    "tokens",
+    "assets",
+    "README.md",
+    "GUIDELINES.md"
+  ],
+  "sideEffects": [
+    "*.css"
+  ],
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0"
+  },
+  "keywords": [
+    "nutriwatch",
+    "design-system",
+    "react",
+    "tokens"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/connieliu27/nutriwatch-design-system.git"
+  },
+  "homepage": "https://github.com/connieliu27/nutriwatch-design-system#readme",
+  "bugs": {
+    "url": "https://github.com/connieliu27/nutriwatch-design-system/issues"
+  }
+}

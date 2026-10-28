@@ -1,0 +1,33 @@
+:root {
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-24: 96px;
+
+  --radius-xs: 6px;   /* source chips */
+  --radius-s: 8px;    /* status badges */
+  --radius-m: 12px;   /* nutrient tiles, step cards */
+  --radius-l: 14px;   /* ingredient rows, agent rows */
+  --radius-xl: 20px;  /* result cards, viewfinder */
+  --radius-device: 48px;
+  --radius-pill: 999px;
+
+  --shadow-xs: 0 1px 2px rgba(15, 42, 31, 0.04);
+  --shadow-s: 0 2px 8px rgba(15, 42, 31, 0.05);
+  --shadow-float: 0 8px 24px rgba(15, 42, 31, 0.08);
+  --shadow-fab: 0 8px 20px rgba(30, 93, 68, 0.28);
+  --shadow-device: 0 30px 60px rgba(15, 42, 31, 0.18);
+
+  --ease-out: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --duration-fast: 140ms;
+  --duration-base: 240ms;
+
+  --container: 1120px;
+}

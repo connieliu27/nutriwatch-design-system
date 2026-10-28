@@ -1,0 +1,52 @@
+:root {
+  /* Green — brand */
+  --green-950: #0f2a1f; /* device bezel, deepest ink */
+  --green-800: #1e5d44; /* primary buttons, FAB, wordmark "Nutri" */
+  --green-700: #24704f;
+  --green-600: #309e6e; /* accent: rings, checks, scan line, eyebrows */
+  --green-300: #a0ceb6;
+  --green-200: #cfe6d9; /* outline-badge border */
+  --green-100: #e9f4ed; /* halo, hero rings */
+  --green-50:  #eef6f1; /* icon chips */
+
+  /* Orange — concern / flagged */
+  --orange-600: #d9470f;
+  --orange-200: #f6d9c8;
+  --orange-100: #fde6da;
+  --orange-50:  #fef4ee;
+
+  /* Neutrals — cool, faintly green */
+  --ink-900: #1f2629;
+  --ink-700: #3b4447;
+  --ink-600: #5b6469;
+  --ink-400: #9aa1a5;
+  --ink-300: #c3c9cc;
+  --ink-200: #d7dcde;
+  --line:        #eef0f1;
+  --line-strong: #e2e6e8;
+  --track:       #e8ecea;
+  --chip:        #eef3ef;
+  --white:   #ffffff;
+  --bg:      #fafbfc;
+  --bg-sunk: #f1f4f3;
+  --bg-tint: #f8fafb;
+
+  /* Semantic */
+  --text-primary: var(--ink-900);
+  --text-body: var(--ink-600);
+  --text-muted: var(--ink-400);
+  --text-accent: var(--green-600);
+  --text-brand: var(--green-800);
+  --text-danger: var(--orange-600);
+  --surface-page: var(--bg);
+  --surface-card: var(--white);
+  --surface-alt: var(--bg-sunk);
+  --surface-row: var(--bg-tint);
+  --border-default: var(--line);
+  --border-strong: var(--line-strong);
+  --action-primary: var(--green-800);
+  --action-primary-hover: var(--green-700);
+  --status-ok: var(--green-600);
+  --status-flag: var(--orange-600);
+  --status-flag-bg: var(--orange-50);
+}

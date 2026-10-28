@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap");
+
+/* NutriWatch Design System tokens */
+:root {
+  /* Green — brand */
+  --green-950: #0f2a1f; /* device bezel, deepest ink */
+  --green-800: #1e5d44; /* primary buttons, FAB, wordmark "Nutri" */
+  --green-700: #24704f;
+  --green-600: #309e6e; /* accent: rings, checks, scan line, eyebrows */
+  --green-300: #a0ceb6;
+  --green-200: #cfe6d9; /* outline-badge border */
+  --green-100: #e9f4ed; /* halo, hero rings */
+  --green-50:  #eef6f1; /* icon chips */
+
+  /* Orange — concern / flagged */
+  --orange-600: #d9470f;
+  --orange-200: #f6d9c8;
+  --orange-100: #fde6da;
+  --orange-50:  #fef4ee;
+
+  /* Neutrals — cool, faintly green */
+  --ink-900: #1f2629;
+  --ink-700: #3b4447;
+  --ink-600: #5b6469;
+  --ink-400: #9aa1a5;
+  --ink-300: #c3c9cc;
+  --ink-200: #d7dcde;
+  --line:        #eef0f1;
+  --line-strong: #e2e6e8;
+  --track:       #e8ecea;
+  --chip:        #eef3ef;
+  --white:   #ffffff;
+  --bg:      #fafbfc;
+  --bg-sunk: #f1f4f3;
+  --bg-tint: #f8fafb;
+
+  /* Semantic */
+  --text-primary: var(--ink-900);
+  --text-body: var(--ink-600);
+  --text-muted: var(--ink-400);
+  --text-accent: var(--green-600);
+  --text-brand: var(--green-800);
+  --text-danger: var(--orange-600);
+  --surface-page: var(--bg);
+  --surface-card: var(--white);
+  --surface-alt: var(--bg-sunk);
+  --surface-row: var(--bg-tint);
+  --border-default: var(--line);
+  --border-strong: var(--line-strong);
+  --action-primary: var(--green-800);
+  --action-primary-hover: var(--green-700);
+  --status-ok: var(--green-600);
+  --status-flag: var(--orange-600);
+  --status-flag-bg: var(--orange-50);
+}
+
+:root {
+  --font-sans: "IBM Plex Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+
+  --weight-light: 300;   /* display lead-in */
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600; /* display emphasis, titles */
+
+  --text-display-xl: 56px; /* hero H1 */
+  --text-display-l: 36px;  /* section H2 */
+  --text-display-m: 30px;  /* product name */
+  --text-title: 18px;      /* card / agent titles */
+  --text-body-l: 17px;
+  --text-body: 15px;
+  --text-body-s: 13px;
+  --text-mono-label: 11px; /* eyebrows, tile labels */
+  --text-mono-s: 12px;
+
+  --leading-tight: 1.08;
+  --leading-snug: 1.3;
+  --leading-body: 1.6;
+  --tracking-display: -0.02em;
+  --tracking-eyebrow: 0.22em;
+  --tracking-label: 0.06em;
+}
+
+:root {
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-24: 96px;
+
+  --radius-xs: 6px;   /* source chips */
+  --radius-s: 8px;    /* status badges */
+  --radius-m: 12px;   /* nutrient tiles, step cards */
+  --radius-l: 14px;   /* ingredient rows, agent rows */
+  --radius-xl: 20px;  /* result cards, viewfinder */
+  --radius-device: 48px;
+  --radius-pill: 999px;
+
+  --shadow-xs: 0 1px 2px rgba(15, 42, 31, 0.04);
+  --shadow-s: 0 2px 8px rgba(15, 42, 31, 0.05);
+  --shadow-float: 0 8px 24px rgba(15, 42, 31, 0.08);
+  --shadow-fab: 0 8px 20px rgba(30, 93, 68, 0.28);
+  --shadow-device: 0 30px 60px rgba(15, 42, 31, 0.18);
+
+  --ease-out: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --duration-fast: 140ms;
+  --duration-base: 240ms;
+
+  --container: 1120px;
+}
